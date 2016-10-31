@@ -22,6 +22,11 @@ public class Core {
 		cat.speak();
 		
 		
+		dog.printLifeSpan();
+		cat.printLifeSpan();
+		
+		
+		
 	}
 
 }

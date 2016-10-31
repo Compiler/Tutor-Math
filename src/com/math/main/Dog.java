@@ -15,7 +15,7 @@ public class Dog extends Animal{
 	
 	@Override
 	public void printLifeSpan(){
-		System.out.println("");
+		System.out.println("15");
 	}
 
 }
