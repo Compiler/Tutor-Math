@@ -15,15 +15,12 @@ public class Core {
 	 */
 	public static void main(String[] args){
 		
-		Calculator calc = new Calculator();
+		Animal dog = new Dog();
+		Animal cat = new Cat();
 		
-		int x = 8;
-		int y = 2;
+		dog.speak();
+		cat.speak();
 		
-		System.out.println(x + " + " + y + " = " + calc.sum(x, y));
-		System.out.println(x + " * " + y + " = " + calc.multiply(x, y));
-		System.out.println(x + " / " + y + " = " + calc.divide(x, y));
-		System.out.println(x + " - " + y + " = " + calc.subtract(x, y));
 		
 	}
 
