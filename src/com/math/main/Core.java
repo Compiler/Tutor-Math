@@ -15,12 +15,15 @@ public class Core {
 	 */
 	public static void main(String[] args){
 		
-		System.out.println("Hello git");
+		Calculator calc = new Calculator();
 		
-		int x = 5;
-		int y = 6;
+		int x = 8;
+		int y = 2;
 		
-		System.out.println("What is up, bro?" + x);
+		System.out.println(x + " + " + y + " = " + calc.sum(x, y));
+		System.out.println(x + " * " + y + " = " + calc.multiply(x, y));
+		System.out.println(x + " / " + y + " = " + calc.divide(x, y));
+		System.out.println(x + " - " + y + " = " + calc.subtract(x, y));
 		
 	}
 
