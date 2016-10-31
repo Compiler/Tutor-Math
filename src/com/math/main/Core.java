@@ -17,6 +17,11 @@ public class Core {
 		
 		System.out.println("Hello git");
 		
+		int x = 5;
+		int y = 6;
+		
+		System.out.println("What is up, bro?" + x);
+		
 	}
 
 }
